@@ -19,3 +19,9 @@ dependencies = ["httpx >= 0.25.0, < 1"]
 
 [project.urls]
 "Homepage" = "https://github.com/jpavlav/pyawx"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pyawx = ["py.typed"]
